@@ -623,12 +623,12 @@ rbot.antiaim.left.spinspeed 60
 rbot.antiaim.right "-90 Backward"
 rbot.antiaim.right.rotation 58
 rbot.antiaim.right.spinspeed 60
-rbot.hitscan.accuracy "Scout"
+rbot.hitscan.accuracy "Heavy Pistol"
 rbot.hitscan.accuracy.asniper.adaptivedamage "Off"
 rbot.hitscan.accuracy.asniper.autowall "On"
 rbot.hitscan.accuracy.asniper.hitchance 65
 rbot.hitscan.accuracy.asniper.hitchanceburst 35
-rbot.hitscan.accuracy.asniper.mindamage 25
+rbot.hitscan.accuracy.asniper.mindamage 1
 rbot.hitscan.accuracy.hpistol.adaptivedamage "Off"
 rbot.hitscan.accuracy.hpistol.autowall "On"
 rbot.hitscan.accuracy.hpistol.hitchance 65
@@ -653,7 +653,7 @@ rbot.hitscan.accuracy.scout.adaptivedamage "Off"
 rbot.hitscan.accuracy.scout.autowall "On"
 rbot.hitscan.accuracy.scout.hitchance 75
 rbot.hitscan.accuracy.scout.hitchanceburst 25
-rbot.hitscan.accuracy.scout.mindamage 101
+rbot.hitscan.accuracy.scout.mindamage 1
 rbot.hitscan.accuracy.shared.adaptivedamage "Off"
 rbot.hitscan.accuracy.shared.autowall "On"
 rbot.hitscan.accuracy.shared.hitchance 40
@@ -673,7 +673,7 @@ rbot.hitscan.accuracy.sniper.adaptivedamage "Off"
 rbot.hitscan.accuracy.sniper.autowall "On"
 rbot.hitscan.accuracy.sniper.hitchance 90
 rbot.hitscan.accuracy.sniper.hitchanceburst 25
-rbot.hitscan.accuracy.sniper.mindamage 98
+rbot.hitscan.accuracy.sniper.mindamage 3
 rbot.hitscan.accuracy.zeus.adaptivedamage "Off"
 rbot.hitscan.accuracy.zeus.autowall "Off"
 rbot.hitscan.accuracy.zeus.hitchance 50
@@ -757,7 +757,7 @@ rbot.hitscan.extra.zeus.safepoint.forcelimbs "Off"
 rbot.hitscan.extra.zeus.safepoint.head "On"
 rbot.hitscan.extra.zeus.safepoint.limbs "Off"
 rbot.hitscan.extra.zeus.safepred "Off"
-rbot.hitscan.hitbox "Scout"
+rbot.hitscan.hitbox "Shared"
 rbot.hitscan.hitbox.asniper.body.exposed "On"
 rbot.hitscan.hitbox.asniper.body.lethal "Off"
 rbot.hitscan.hitbox.asniper.body.priority "Off"
@@ -846,6 +846,8 @@ theme.ui2.lowpoly2 21 21 21 255
 unbindall
 bindtoggle "Mouse3" rbot.hitscan.accuracy.scout.mindamage "101" "1" 0
 bindtoggle "Mouse3" rbot.hitscan.accuracy.asniper.mindamage "25" "1" 1
+bindtoggle "Mouse3" rbot.hitscan.accuracy.sniper.mindamage "99" "3" 2
+bindtoggle "Mouse3" rbot.hitscan.accuracy.hpistol.mindamage "40" "1" 3
 bindtoggle "Mouse4" rbot.antiaim.base "-90 Backward" "90 Backward" 0
 bindtoggle "P" catware2.ct2_kpitchdown "Off" "On" 0
 bindtoggle "X" esp.world.thirdperson "Off" "On" 0
