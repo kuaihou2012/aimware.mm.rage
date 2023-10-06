@@ -71,18 +71,18 @@ esp.overlay.enemy.weapon.clr2 231 50 46 255
 esp.overlay.enemy.weaponfilter.active "On"
 esp.overlay.enemy.weaponfilter.inventory "Off"
 esp.overlay.enemy.weaponfilter.nades "Off"
-esp.overlay.friendly.ammo "On"
+esp.overlay.friendly.ammo "Off"
 esp.overlay.friendly.ammo.anchor 1
 esp.overlay.friendly.ammo.clr1 0 136 236 255
 esp.overlay.friendly.ammo.clr2 0 83 166 255
-esp.overlay.friendly.armor "On"
+esp.overlay.friendly.armor "Off"
 esp.overlay.friendly.armor.anchor 2
 esp.overlay.friendly.armor.clr1 255 255 255 255
 esp.overlay.friendly.barrel "Off"
 esp.overlay.friendly.barrel.clr1 168 50 83 255
-esp.overlay.friendly.box "Outlined"
+esp.overlay.friendly.box "Off"
 esp.overlay.friendly.box.clr1 30 154 247 255
-esp.overlay.friendly.dormant "On"
+esp.overlay.friendly.dormant "Off"
 esp.overlay.friendly.flags.anchor 3
 esp.overlay.friendly.flags.defusing "Off"
 esp.overlay.friendly.flags.defusing.clr 244 70 66 255
@@ -99,14 +99,14 @@ esp.overlay.friendly.flags.reloading.clr 237 217 78 255
 esp.overlay.friendly.flags.scoped "Off"
 esp.overlay.friendly.flags.scoped.clr 81 191 234 255
 esp.overlay.friendly.health.anchor 2
-esp.overlay.friendly.health.healthbar "On"
+esp.overlay.friendly.health.healthbar "Off"
 esp.overlay.friendly.health.healthbar.healthclr1 0 255 0 255
 esp.overlay.friendly.health.healthbar.healthclr2 255 0 0 255
 esp.overlay.friendly.health.healthnum "Off"
 esp.overlay.friendly.money "Off"
 esp.overlay.friendly.money.anchor 3
 esp.overlay.friendly.money.clr1 116 235 52 255
-esp.overlay.friendly.name "On"
+esp.overlay.friendly.name "Off"
 esp.overlay.friendly.name.anchor 0
 esp.overlay.friendly.name.clr1 255 255 255 255
 esp.overlay.friendly.ping "Off"
@@ -115,7 +115,7 @@ esp.overlay.friendly.ping.clr1 255 255 255 255
 esp.overlay.friendly.precision "Off"
 esp.overlay.friendly.skeleton "Off"
 esp.overlay.friendly.skeleton.clr1 105 50 168 255
-esp.overlay.friendly.weapon "On"
+esp.overlay.friendly.weapon "Off"
 esp.overlay.friendly.weapon.anchor 1
 esp.overlay.friendly.weapon.clr1 255 255 255 255
 esp.overlay.friendly.weapon.clr2 231 50 46 255
@@ -446,7 +446,7 @@ misc.chatspam "Off"
 misc.duckjump "Off"
 misc.edgejump 0
 misc.master "On"
-misc.showspec "Off"
+misc.showspec "On"
 misc.strafe.air "On"
 misc.strafe.circle 0
 misc.strafe.disablenade "Off"
@@ -607,20 +607,20 @@ rbot.aim.posadj.resolver "Resolve"
 rbot.aim.target.fov 180
 rbot.aim.target.lock "Off"
 rbot.aim.target.selection "Closest To Crosshair"
-rbot.antiaim.advanced.pitch "Off"
-rbot.antiaim.base "90 Backward"
+rbot.antiaim.advanced.pitch "89°"
+rbot.antiaim.base "-180 Backward"
 rbot.antiaim.base.rotation -58
 rbot.antiaim.base.spinspeed 720
-rbot.antiaim.condition.autodir.edges "Off"
+rbot.antiaim.condition.autodir.edges "On"
 rbot.antiaim.condition.autodir.targets "On"
 rbot.antiaim.condition.freezetime "Off"
 rbot.antiaim.condition.grenade "On"
 rbot.antiaim.condition.knife "On"
 rbot.antiaim.condition.use "Off"
-rbot.antiaim.left "92 Off"
+rbot.antiaim.left "90 Backward"
 rbot.antiaim.left.rotation -58
 rbot.antiaim.left.spinspeed 60
-rbot.antiaim.right "-90 Off"
+rbot.antiaim.right "-90 Backward"
 rbot.antiaim.right.rotation 58
 rbot.antiaim.right.spinspeed 60
 rbot.hitscan.accuracy "Scout"
@@ -825,7 +825,7 @@ rbot.hitscan.hitbox.zeus.head.exposed "Off"
 rbot.hitscan.hitbox.zeus.head.priority "Off"
 rbot.hitscan.hitbox.zeus.limbs.exposed "Off"
 rbot.master "On"
-spectators 434 7
+spectators 869 0
 theme.footer.bg 193 154 164 255
 theme.footer.text 201 201 201 0
 theme.header.bg 193 154 164 255
